@@ -1,0 +1,39 @@
+In file included from /home/carlos/Desktop/backup/ProgramasC++/RepoLab3/main.cpp:1:0:
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.h:8:13: error: expected ‘;’ at end of member declaration
+         int denominador
+             ^~~~~~~~~~~
+In file included from /home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:1:0:
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.h:8:13: error: expected ‘;’ at end of member declaration
+         int denominador
+             ^~~~~~~~~~~
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:21:29: error: no ‘void Racional::simplificar()’ member function declared in class ‘Racional’
+ void Racional::simplificar( ){
+                             ^
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:28:25: error: declaration of ‘operator+’ as non-function
+ int Racional::operator+(fraccion&){
+                         ^~~~~~~~
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:28:25: error: ‘fraccion’ was not declared in this scope
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:28:34: error: expected primary-expression before ‘)’ token
+ int Racional::operator+(fraccion&){
+                                  ^
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:33:25: error: declaration of ‘operator-’ as non-function
+ int Racional::operator-(fraccion&){
+                         ^~~~~~~~
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:33:25: error: ‘fraccion’ was not declared in this scope
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:33:34: error: expected primary-expression before ‘)’ token
+ int Racional::operator-(fraccion&){
+                                  ^
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:38:25: error: declaration of ‘operator*’ as non-function
+ int Racional::operator*(fraccion&){
+                         ^~~~~~~~
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:38:25: error: ‘fraccion’ was not declared in this scope
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:38:34: error: expected primary-expression before ‘)’ token
+ int Racional::operator*(fraccion&){
+                                  ^
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:43:25: error: declaration of ‘operator/’ as non-function
+ int Racional::operator/(fraccion&){
+                         ^~~~~~~~
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:43:25: error: ‘fraccion’ was not declared in this scope
+/home/carlos/Desktop/backup/ProgramasC++/RepoLab3/Racional.cpp:43:34: error: expected primary-expression before ‘)’ token
+ int Racional::operator/(fraccion&){
+                                  ^

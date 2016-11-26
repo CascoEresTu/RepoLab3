@@ -25,21 +25,21 @@ std::cout << "spoof" << std::endl;
 }
 
 
-int Racional::operator+(fraccion&){
+Racional Racional::operator+(Racional& fraccion){
 
 
 }
 
-int Racional::operator-(fraccion&){
+Racional Racional::operator-(Racional& fraccion){
 
 
 }
 
-int Racional::operator*(fraccion&){
+Racional Racional::operator*(Racional& fraccion){
 
 
 }
 
-int Racional::operator/(fraccion&){
+Racional Racional::operator/(Racional& fraccion){
 
 }
